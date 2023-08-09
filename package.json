@@ -1,0 +1,25 @@
+{
+  "name": "electron-boot-vite-vue",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./dist/electron/bootstrap.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@electron-boot/framework": "1.0.0-beta.5",
+    "@electron-boot/logger": "1.0.0-beta.5"
+  },
+  "devDependencies": {
+    "@electron-boot/vite-plugin-electron": "1.0.0-beta.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "electron": "22.3.18",
+    "tsc-watch": "^6.0.4",
+    "typescript": "5.3.0-dev.20230809",
+    "vite": "^4.4.9",
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.8.5"
+  }
+}
